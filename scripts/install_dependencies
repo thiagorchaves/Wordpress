@@ -1,7 +1,6 @@
 #!/bin/bash
-cd /var/www/html/
+cd /home/ec2-user
 yum -y update
-yum -y install httpd24 php56 php56-devel php56-mysql php56-pdo php56-mbstring php56-mcrypt
-curl -s https://getcomposer.org/installer | php
-php composer.phar install
-php composer.phar require slim/slim "^3.0"
+yum -y  mysql55-server
+wget https://br.wordpress.org/wordpress-4.8.3-pt_BR.tar.gz
+tar -xzf wordpress-4.8.3-pt_BR.tar.gz
