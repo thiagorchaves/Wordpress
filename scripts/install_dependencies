@@ -1,6 +1,4 @@
 #!/bin/bash
 cd /home/ec2-user
 yum -y update
-yum -y  mysql55-server
-wget https://br.wordpress.org/wordpress-4.8.3-pt_BR.tar.gz
-tar -xzf wordpress-4.8.3-pt_BR.tar.gz
+yum -y  install mysql55-server
