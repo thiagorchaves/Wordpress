@@ -1,3 +1,3 @@
 #!/bin/bash
-cd /home/ec2-user
-echo "<?php phpinfo(); ?>" > /var/www/html/phpinfo.php
+cd /home/ec2-user/wordpress
+cp wp-config-sample.php wp-config.php
