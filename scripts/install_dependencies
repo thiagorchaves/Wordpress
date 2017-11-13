@@ -1,3 +1,3 @@
 #!/bin/bash
-cd /home/ec2-user/wordpress
-cp wp-config-sample.php wp-config.php
+cd /var/www/html
+cp -r wordpress/* /var/www/html/
