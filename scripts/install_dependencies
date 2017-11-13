@@ -1,3 +1,2 @@
 #!/bin/bash
-cd /home/ec2-user
-cp -r /home/ec2-user/wordpress/* /var/www/html/
+cd /var/www/html
