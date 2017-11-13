@@ -1,2 +1,4 @@
 #!/bin/bash
-cd /var/www/html
+cd /home/ec2-user
+wget https://br.wordpress.org/wordpress-4.8.3-pt_BR.tar.gz
+tar -xzf wordpress-4.8.3-pt_br.tar.gz
